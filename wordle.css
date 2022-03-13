@@ -1,0 +1,62 @@
+h1 {
+    text-align: center;
+    font-family:'Trebuchet MS', Arial, sans-serif;
+    font-size: 230%;
+}
+.blanks {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-65%);
+}
+
+.blanks div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4px;
+}
+
+input {
+    width:50px;
+    font-size: 45px;
+    text-align: center;
+    cursor:default;
+    margin: 0.5%;
+    border-color:lightgrey;
+    border-style:solid;
+}
+
+button {
+    cursor: pointer;
+}
+
+.keyboard {
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.keyboard div{
+    display: flex;
+    justify-content: center;
+}
+
+.keyboard button {
+    font-family:'Trebuchet MS', Arial, sans-serif;
+    border:none;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+.noml{
+    width: 48px;
+    height: 50px;
+    margin: 0.2%;
+}
+
+.modi {
+    width:75px;
+    height: 50px;
+    margin: 0.2%;
+}

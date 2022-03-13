@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wordle</title>
+        <link rel="stylesheet" href="wordle.css">
+        <script src="wordle.js"></script>
+    </head>
+    <div>
+        <h1>Wordle</h1>
+        <div class = "blanks">
+            <div class = "1">
+                <input class = "input q" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+                <input class = "input w" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+                <input class = "input e" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+                <input class = "input r" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+                <input class = "input t" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+            </div>
+            <div class = "2">
+                <input class = "input q" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+                <input class = "input w" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+                <input class = "input e" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+                <input class = "input r" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+                <input class = "input t" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+            </div>
+            <div class = "3">
+                <input class = "input q" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+                <input class = "input w" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+                <input class = "input e" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+                <input class = "input r" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+                <input class = "input t" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+            </div>
+            <div class = "4">
+                <input class = "input q" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+                <input class = "input w" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+                <input class = "input e" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+                <input class = "input r" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+                <input class = "input t" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+            </div>
+            <div class = "5">
+                <input class = "input q" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+                <input class = "input w" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+                <input class = "input e" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+                <input class = "input r" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+                <input class = "input t" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+            </div>
+            <div class = "6">
+                <input class = "input q" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+                <input class = "input w" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+                <input class = "input e" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+                <input class = "input r" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+                <input class = "input t" type="text" maxlength="1" value = '' readonly onfocus="this.blur()">
+            </div>
+        </div>
+        <div class = "keyboard">
+            <div>
+                <button class="noml" value="q">Q</button>
+                <button class="noml" value="w">W</button>
+                <button class="noml" value="e">E</button>
+                <button class="noml" value="r">R</button>
+                <button class="noml" value="t">T</button>
+                <button class="noml" value="y">Y</button>
+                <button class="noml" value="u">U</button>
+                <button class="noml" value="i">I</button>
+                <button class="noml" value="o">O</button>
+                <button class="noml" value="p">P</button>
+            </div>
+            <div>
+                <button class="noml" value="a">A</button>
+                <button class="noml" value="s">S</button>
+                <button class="noml" value="d">D</button>
+                <button class="noml" value="f">F</button>
+                <button class="noml" value="g">G</button>
+                <button class="noml" value="h">H</button>
+                <button class="noml" value="j">J</button>
+                <button class="noml" value="k">K</button>
+                <button class="noml" value="l">L</button>
+            </div>
+            <div>
+                <button class="modi" onclick="submit()">Enter</button>
+                <button class="noml" value="z">Z</button>
+                <button class="noml" value="x">X</button>
+                <button class="noml" value="c">C</button>
+                <button class="noml" value="v">V</button>
+                <button class="noml" value="b">B</button>
+                <button class="noml" value="n">N</button>
+                <button class="noml" value="m">M</button>
+                <button class="modi">Back</button>
+            </div>
+        </div>
+    </body>
+</html>
